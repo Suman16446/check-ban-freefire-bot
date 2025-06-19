@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 async def check_ban(uid):
-    api_url = f"https://check-ban.onrender.com/check_ban/{uid}"
+    api_url =https://check-ban.onrender.com/check_ban/{uid}` to `https://api-check-ban.vercel.app/check_ban/{uid}`
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(api_url) as response:
